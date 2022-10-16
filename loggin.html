@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>loging</title>
+        <body>
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+            <style>
+                
+                body{
+                    margin-top: 30px;
+                    
+                    background: linear-gradient( to right, rgb(148, 148, 148), rgb(255, 0, 170));
+                    
+                }
+                .container {
+                    background-color: rgba(253, 253, 253, 0.603);
+                    min-width: 250px;
+                    scale: 120%;
+                    border-radius: 30px;
+                    inset: 0;
+                    box-shadow: 5px 5px 20px 5px rgb(250, 96, 69);
+                    
+                }
+                .table {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 100px;
+                    
+                }
+                .Emailtext {
+                    margin: 0%;
+                    font-family: Arial, Helvetica, sans-serif;
+                    opacity: 0.7;
+                    font-weight: 550;
+
+                }
+                .passtext{
+                    margin: 0%;
+                    margin-top: 7px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    opacity: 0.7;
+                    font-weight: 550;
+
+
+                }
+                .button{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 10px;
+                }
+                input {
+                    
+                    display: flex;
+                    justify-content: space-between;
+                    border-style: none;
+                    height: 25px;
+                    border-radius: 7px;
+                    width: 220px;
+                    margin-top: 5px;
+                    
+                }
+                .up {
+                    display: flex;
+                    justify-content: space-between;
+                    
+                }
+                h1 {
+                    text-align: center;
+                    margin-left: -15px;
+                    font-weight: 200;
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                    
+                   
+                }
+                .img{
+                    width: 50px;
+                    margin-left: -15px;
+                }
+                .logo{
+                    display: flex;
+                    justify-content: center;
+                    padding-top: 20px;
+                    
+                    
+                }
+
+                .start {
+                    height: 40px;
+                    width: 80px;
+                    border-radius: 15px;
+                    border-style: none;
+                    background-color:rgb(250, 96, 69) ;
+                    color: rgb(255, 255, 255);
+                    font-weight: 700;
+                    cursor: pointer;
+                }
+                .start :hover {
+                    
+                    background-color: rgb(255, 255, 255);
+                    color: rgb(250, 96, 69);
+                    font-weight: 700;
+                    cursor: pointer;
+                }
+                .button :hover{
+                    background-color: rgb(255, 255, 255);
+                    color: rgb(250, 96, 69);
+                    box-shadow: 1px 1px  20px rgb(255, 0, 170);
+                    transition: 0.25s;
+                }
+                .button ::after{
+                    background-color: rgba(250, 96, 69, 0.315);
+                    color: rgb(255, 255, 255)
+                }
+                .a {
+                    padding-left: 10px;
+                }
+                .navbar {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    
+                }
+
+                a{
+                    padding: 10px;
+                    background-color: rgba(253, 253, 253, 0.842);
+                    border-radius: 50px;
+                    margin: 5px;
+                    text-decoration: none;
+                    font-weight: 200;
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                    box-shadow: 1px 1px 20px 3px rgb(250, 96, 69);
+                }
+                a :hover{
+                    background-color: rgb(102, 99, 99);
+                    color: rgb(250, 96, 69);
+                    font-weight: 700;
+                    
+                }
+                
+            </style>
+        </body>
+    </head>
+    <body>
+        <div class="navbar"> 
+            <div class="item"><a href="">Home</a></div>
+            <div class="item"><a href="">News</a></div>
+            <div class="item"><a href="">Contact</a></div>
+            <div class="item"><a href="">About</a></div>
+        </div>
+
+
+
+    <div class="table">
+        <div class="container"> 
+            <div class="logo">
+                <img src="/img/deck.png" alt="" class="img">
+            </div>
+            <div class="a">
+                <div class="side line">
+                <div class="line"></div>
+            <h1>HelpDesk</h1></div>
+            <p class="Emailtext">Your Email</p>
+
+        <div class="up">
+            <input type="email" placeholder="Enter Email" required autofocus>
+        </div>
+            <div class="buttom"> 
+            <p class="passtext">Password</p>
+            <input type="password" placeholder="password" required autofocus>
+            </div>
+        </div>
+            <div class="button">
+                <button class="start" >start</button>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
